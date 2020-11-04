@@ -16,7 +16,7 @@
     margin-top: 10rem;
 }
 .topTitle{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserreat',sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 48px;
@@ -27,4 +27,129 @@
     font-weight: 600;
     color: #ffffff;
     font-size: 22px;
+}
+
+.skillsMainTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.skillCard{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
+}
+
+.skillCard:hover{
+    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
+}
+
+.skillName{
+
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.skillDescription{
+    color: #7F7E7E;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navTitle{
+    font-family: 'Montserreat',sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll{
+    font-family: 'Montserreat',sans-serif;
+    color: #0073E6 !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navBackground{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: rgba(00,00,00,0.0) !important;
+}
+.navBackgroundScroll{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: #ffffff !important;
+}
+
+.navItem{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+.navItemScroll{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    color: #000000 !important;
+}
+
+.interestMainTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.interestCard{
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
+}
+
+.interestCard:hover{
+    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
+}
+
+.interestName{
+
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.welcomeTitle{
+    color: #0073E6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.welcomeDes{
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
 }
