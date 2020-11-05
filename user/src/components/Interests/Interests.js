@@ -11,34 +11,34 @@ class Interests extends Component {
             <Fragment>
                 <Container className="text-center">
 
-                 <h1 className="interestMainTitle">RESEARCH INTEREST</h1>
+                 <h1 className="MainTitle">RESEARCH INTEREST</h1>
 
                  <Row>
                  <Col lg={3} md={4} sm={6}>
-                           <div className="interestCard text-center">
+                           <div className="card text-center">
                                <img src={ai}/>
-                               <h2 className="interestName">Artificial Intelligence</h2>
+                               <h2 className="name">Artificial Intelligence</h2>
                             </div>
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="interestCard text-center">
+                           <div className="card text-center">
                                <img src={deep}/>
-                               <h2 className="interestName">Deep Learning</h2>
+                               <h2 className="name">Deep Learning</h2>
                             </div>
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="interestCard text-center">
+                           <div className="card text-center">
                                <img src={machine}/>
-                               <h2 className="interestName">Machine Learning</h2>
+                               <h2 className="name">Machine Learning</h2>
                             </div>
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="interestCard text-center">
+                           <div className="card text-center">
                                <img src={iot}/>
-                               <h2 className="interestName">Internet of Things</h2>
+                               <h2 className="name">Internet of Things</h2>
                             </div>
                 </Col>
                  </Row>

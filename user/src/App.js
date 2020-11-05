@@ -1,4 +1,5 @@
 import React from 'react';
+import FavouriteQuotes from './components/FavouriteQuotes/FavouriteQuotes';
 import Interests from './components/Interests/Interests';
 import Skills from './components/Skills/Skills';
 import TopBanner from "./components/TopBanner/TopBanner";
@@ -14,6 +15,7 @@ function App() {
       <Welcome></Welcome>
       <Skills></Skills>
       <Interests></Interests>
+      <FavouriteQuotes></FavouriteQuotes>
 
     </div>
   );

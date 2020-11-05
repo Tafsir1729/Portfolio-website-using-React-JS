@@ -12,13 +12,13 @@ class Skills extends Component {
 
                 <Container className="text-center">
 
-                <h1 className="skillsMainTitle">MY SKILLS</h1>
+                <h1 className="MainTitle">MY SKILLS</h1>
 
                 <Row>
                 <Col lg={3} md={4} sm={6}>
-                           <div className="skillCard text-center">
+                           <div className="card text-center">
                                <img src={web}/>
-                               <h2 className="skillName">Web Development</h2>
+                               <h2 className="name">Web Development</h2>
                                <h4 className="skillDescription">React.js, HTML, CSS, Bootstrap, JavaScript, PHP</h4>
 
 
@@ -26,9 +26,9 @@ class Skills extends Component {
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="skillCard text-center">
+                           <div className="card text-center">
                                <img src={md}/>
-                               <h2 className="skillName">Mobile Development</h2>
+                               <h2 className="name">Mobile Development</h2>
                                <h4 className="skillDescription">Android (Java)</h4>
 
 
@@ -36,9 +36,9 @@ class Skills extends Component {
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="skillCard text-center">
+                           <div className="card text-center">
                                <img src={pl}/>
-                               <h2 className="skillName">Programming Language</h2>
+                               <h2 className="name">Programming Language</h2>
                                <h4 className="skillDescription">C/C++, Python, Java</h4>
 
 
@@ -46,9 +46,9 @@ class Skills extends Component {
                 </Col>
 
                 <Col lg={3} md={4} sm={6}>
-                           <div className="skillCard text-center">
+                           <div className="card text-center">
                                <img src={es}/>
-                               <h2 className="skillName">Embedded Systems</h2>
+                               <h2 className="name">Embedded Systems</h2>
                                <h4 className="skillDescription">Arduino, Internet of Things</h4>
 
 

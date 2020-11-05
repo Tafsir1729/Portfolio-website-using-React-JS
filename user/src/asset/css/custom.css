@@ -29,7 +29,7 @@
     font-size: 22px;
 }
 
-.skillsMainTitle{
+.MainTitle{
     color: #0073E6;
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -38,18 +38,18 @@
     font-weight: 600;
 }
 
-.skillCard{
+.card{
     margin: 5px 5px 5px 5px;
     height: 22rem;
     padding: 60px 30px 60px 30px;
     box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
 }
 
-.skillCard:hover{
+.card:hover{
     box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
 }
 
-.skillName{
+.name{
 
     margin-top: 1rem;
     font-family: 'Raleway',sans-serif;
@@ -64,6 +64,7 @@
     font-size: 14px;
     font-weight: 400;
 }
+
 
 .navTitle{
     font-family: 'Montserreat',sans-serif;
@@ -109,47 +110,17 @@
     color: #000000 !important;
 }
 
-.interestMainTitle{
-    color: #0073E6;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-family: 'Montserreat',sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-}
-
-.interestCard{
-    margin: 5px 5px 5px 5px;
-    height: 22rem;
-    padding: 60px 30px 60px 30px;
-    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
-}
-
-.interestCard:hover{
-    box-shadow: 0 0 50px 0 rgba(0,115,230,0.2);
-}
-
-.interestName{
-
-    margin-top: 1rem;
-    font-family: 'Raleway',sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
-.welcomeTitle{
-    color: #0073E6;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    font-family: 'Montserreat',sans-serif;
-    font-size: 28px;
-    font-weight: 600;
-}
-
 .welcomeDes{
     font-weight: 400;
     color: #000000;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
+}
+
+
+.quote{
+    color: #7F7E7E;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
