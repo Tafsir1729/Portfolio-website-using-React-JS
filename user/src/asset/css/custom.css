@@ -13,7 +13,7 @@
     background: rgba(0,0,0,0.6);
 }
 .topContent{
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 .topTitle{
     font-family: 'Montserreat',sans-serif;
@@ -59,7 +59,7 @@
 }
 
 .skillDescription{
-    color: #7F7E7E;
+    color: #2B2B2B;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -112,15 +112,60 @@
 
 .welcomeDes{
     font-weight: 400;
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
 }
 
 
 .quote{
-    color: #7F7E7E;
+    color: #2B2B2B;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+
+.footerSection{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    margin-top: 5rem;
+}
+
+.socialLink{
+    text-decoration: none;
+    color: #0073E6;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.socialLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+
+}
+.footerLink{
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+}
+
+.footerLink:hover{
+    color: #0073E6;
+    text-decoration: none;
+}
+.copyrightSection{
+    padding: 20px 20px 20px 20px;
+    background-color: #0073E6;
+}
+.copyrightLink{
+    color: #ffffff;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.copyrightLink:hover{
+    color: #2B2B2B;
+    text-decoration: none;
 }

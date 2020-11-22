@@ -14,28 +14,28 @@ class Interests extends Component {
                  <h1 className="MainTitle">RESEARCH INTEREST</h1>
 
                  <Row>
-                 <Col lg={3} md={4} sm={6}>
+                 <Col lg={3} md={4} sm={6}className="p-2">
                            <div className="card text-center">
                                <img src={ai}/>
                                <h2 className="name">Artificial Intelligence</h2>
                             </div>
                 </Col>
 
-                <Col lg={3} md={4} sm={6}>
+                <Col lg={3} md={4} sm={6} className="p-2">
                            <div className="card text-center">
                                <img src={deep}/>
                                <h2 className="name">Deep Learning</h2>
                             </div>
                 </Col>
 
-                <Col lg={3} md={4} sm={6}>
+                <Col lg={3} md={4} sm={6} className="p-2">
                            <div className="card text-center">
                                <img src={machine}/>
                                <h2 className="name">Machine Learning</h2>
                             </div>
                 </Col>
 
-                <Col lg={3} md={4} sm={6}>
+                <Col lg={3} md={4} sm={6} className="p-2">
                            <div className="card text-center">
                                <img src={iot}/>
                                <h2 className="name">Internet of Things</h2>
