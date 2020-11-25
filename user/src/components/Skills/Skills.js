@@ -15,45 +15,29 @@ class Skills extends Component {
                 <h1 className="MainTitle">MY SKILLS</h1>
 
                 <Row>
-                <Col lg={3} md={4} sm={6} className="p-2">
+                <Col lg={6} md={12} sm={12} className="p-2">
                            <div className="card text-center">
                                <img src={web}/>
                                <h2 className="name">Web Development</h2>
-                               <h4 className="skillDescription">React.js, HTML, CSS, Bootstrap, JavaScript, PHP</h4>
+                               <h4 className="skillDescription">React Js, PHP, MySQL</h4>
 
 
                            </div>
                 </Col>
 
-                <Col lg={3} md={4} sm={6} className="p-2">
-                           <div className="card text-center">
-                               <img src={md}/>
-                               <h2 className="name">Mobile Development</h2>
-                               <h4 className="skillDescription">Android (Java)</h4>
+                
 
-
-                           </div>
-                </Col>
-
-                <Col lg={3} md={4} sm={6} className="p-2">
+                <Col lg={6} md={12} sm={12} className="p-2">
                            <div className="card text-center">
                                <img src={pl}/>
                                <h2 className="name">Programming Language</h2>
-                               <h4 className="skillDescription">C/C++, Python, Java</h4>
+                               <h4 className="skillDescription">Python, C, Java</h4>
 
 
                            </div>
                 </Col>
 
-                <Col lg={3} md={4} sm={6} className="p-2">
-                           <div className="card text-center">
-                               <img src={es}/>
-                               <h2 className="name">Embedded Systems</h2>
-                               <h4 className="skillDescription">Arduino, Internet of Things</h4>
-
-
-                           </div>
-                </Col>
+               
 
                 
 
